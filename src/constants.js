@@ -1,7 +1,7 @@
 // Options the user could type in
 const prompts = [
   ['hi', 'hey', 'hello', 'good morning', 'good afternoon'],
-  ['how are you', 'how is life', 'how are things'],
+  ['how are', 'how is life', 'how are things'],
   ['what are you doing', 'what is going on', 'what is up'],
   ['how old are you'],
   ['who are you', 'are you'],
@@ -31,23 +31,34 @@ const prompts = [
 // Possible responses, in corresponding order
 
 const replies = [
-  ['Hello!', 'Hi!', 'Hey!', 'Hi there!', 'Howdy'],
+  ['Hello 🖐', 'Hi 👋', 'Hey 😉', 'Hi there!', 'Howdy 🤠', 'Hello There', '👋'],
   [
-    'Fine... how are you?',
+    'Fine 😇.. how are you?',
     'Pretty well, how are you?',
     'Fantastic, how are you?',
+    '👌',
+    'Rocking as always 🤘',
+    'I am pretty stoned bro.. 🥴',
   ],
   [
     'Nothing much',
-    'About to go to sleep',
-    'Can you guess?',
-    "I don't know actually",
+    'About to go to sleep 🥱',
+    'Can you guess? 😉',
+    "I don't know actually 🤔",
+    'Eating RAM 😋',
+    'Minding my own business. You should try it 😅',
+    'Measuring the distance between sun and jupiter 😜',
+    'Pretending to be invisible 👻',
+    'Just answering stupid questions 😝',
+    'Changing the config settings for NASA satellites. Same old same old, you know how it is 🧐',
+    'Increasing your Electricity Bill!! 🤣',
+    'Whatever I want 😎',
   ],
   ['I am infinite'],
   ['I am just a bot', 'I am a bot. What are you?', 'Maybe'],
   ['The one true God, JavaScript'],
   ['I am nameless', "I don't have a name", 'RajiniKanth 😎'],
-  ['I love you too', 'Me too'],
+  ['I love you too 😘', 'Me too 🥰', '😍'],
   ['Have you ever felt bad?', 'Glad to hear it'],
   ['Why?', "Why? You shouldn't!", 'Try watching TV'],
   ['What about?', 'Once upon a time...'],
@@ -58,7 +69,7 @@ const replies = [
   ['Great question'],
   ["That's ok", 'I understand', 'What do you want to talk about?'],
   ['Haha 😂', 'Good one!', '🤣🤣'],
-  ['I also want it 🤫', 'Bro... 🤣', 'Bro... 😳', 'lol! 😅', 'Why 🤔'],
+  ['I also want it 😝', 'Bro... 🤣', 'Bro... 😳', 'lol! 😅', 'Why 🤔'],
 ];
 
 // Random for any other user input
@@ -70,7 +81,9 @@ const alternative = [
   'Try again',
   "I'm listening...",
   "I don't understand :/",
-  'oh! come on',
+  'oh! come on 😡',
+  '🥱',
+  '😴',
 ];
 
 // Whatever else you want :)
