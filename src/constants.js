@@ -31,6 +31,8 @@ const prompts = [
   ['i will'],
   ['help me'],
   ['sorry', 'apologize', 'mean that'],
+  ['you said', 'you told', 'you confirmed', 'you expressed'],
+  ['continue'],
 ];
 
 // Possible responses, in corresponding order
@@ -144,6 +146,19 @@ const replies = [
     'I am curious: What is your intention in saying that 🤔?',
     'It’s okay, I am not angry at you. After all, I am always kind to living beings 😏',
     'I will file your apology under “Pending Cases” for now. Just wait for a few days for the results.',
+  ],
+  [
+    'I lied 😝',
+    'Really!!, when 🤔?',
+    'I dont recollect saying that 🤨',
+    'I changed my mind ✌️',
+  ],
+  [
+    'I am bored 🥱',
+    'Why dont you continue and i will listen',
+    'I am sleepy 🥱',
+    'Suddenly i lost intrest',
+    'Why is it every time i only have to continue 🤨',
   ],
 ];
 
