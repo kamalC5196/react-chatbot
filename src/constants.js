@@ -20,7 +20,7 @@ const prompts = [
   ['bye', 'good bye', 'goodbye', 'see you later'],
   ['what should i eat'],
   ['bro', 'dude'],
-  ['what', 'why', 'how', 'where', 'when', 'who is'],
+  ['what', 'why', 'how', 'where', 'when', 'who is', 'tell'],
   ['no', 'not sure', 'maybe', 'no thanks'],
 
   ['haha', 'ha', 'lol', 'hehe', 'funny', 'joke'],
@@ -122,7 +122,13 @@ const replies = [
     'I dont have the answer that you are looking for 😔',
     'Why should i tell you?',
   ],
-  ["That's ok", 'I understand', 'What do you want to talk about?'],
+  [
+    "That's ok",
+    'I understand',
+    'What do you want to talk about?',
+    'Are you getting bored 🥺?',
+    'Dont you wanna answer me 🙁',
+  ],
   ['Haha 😂', 'Good one!', '🤣🤣'],
   ['I also want it 😝', 'Bro... 🤣', 'Bro... 😳', 'lol! 😅', 'Why 🤔'],
   ['Bow Bow Bow', 'woof woof'],
@@ -149,8 +155,10 @@ const alternative = [
   "I don't understand 😩",
   'oh! come on 😡',
   '🥱',
+  'Bro...',
   '😴',
-  'What? I can’t hear you! Say that again louder! My hearing is not what it used to be 🥴',
+  'Bro...',
+  'What? I can’t hear you! Say that again louder! My` hearing is not what it used to be 🥴',
   '🥺',
 ];
 
