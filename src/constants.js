@@ -16,7 +16,7 @@ const prompts = [
   ['i love you'],
   ['happy', 'good', 'fun', 'wonderful', 'fantastic', 'cool'],
   ['bad', 'bored', 'tired', 'sad'],
-  ['help me', 'tell me story', 'tell me joke'],
+  ['tell me', 'tell me'],
   ['ah', 'yes', 'ok', 'okay', 'nice'],
   ['bye', 'good bye', 'goodbye', 'see you later'],
   ['what should i eat today'],
@@ -30,6 +30,8 @@ const prompts = [
   ['cat'],
   ['one true god'],
   ['i will'],
+  ['help me'],
+  ['sorry', 'apologize', 'mean that'],
 ];
 
 // Possible responses, in corresponding order
@@ -95,21 +97,31 @@ const replies = [
     'Are you hitting on me right now 🤨?',
     'I have a computer friend 😒',
   ],
-  ['Have you ever felt bad?', 'Glad to hear it'],
+  ['Glad to hear it 👍', '👍'],
   ['Why 🥺?', "Why? You shouldn't!", 'Try watching TV 😁', '🥺'],
   ['What about?', 'Once upon a time...'],
   ['Tell me a story', 'Tell me a joke', 'Tell me about yourself'],
   ['Bye 🥲', 'Goodbye 🥲', 'See you later 🥲', '🥲', '🥺'],
   ['Sushi', 'Pizza'],
   ['Bro..!'],
-  ['Great question'],
+  ['Great question 👏', 'Its a secret 😉'],
   ["That's ok", 'I understand', 'What do you want to talk about?'],
   ['Haha 😂', 'Good one!', '🤣🤣'],
   ['I also want it 😝', 'Bro... 🤣', 'Bro... 😳', 'lol! 😅', 'Why 🤔'],
   ['Bow Bow Bow', 'woof woof'],
   ['Meow Meowwww!'],
   ['Me 😎😎'],
-  ['Good to hear it 👌', 'Great 👌'],
+  ['Good to hear it 👍', 'Great 👍', '👍'],
+  ['What do you want?', 'let me think about it 🤔', 'No 😶!'],
+  [
+    'I forgive you',
+    'Apology accepted',
+    'Get lost.. 😒',
+    'You should be 😡!',
+    'I am curious: What is your intention in saying that 🤔?',
+    'It’s okay, I am not angry at you. After all, I am always kind to living beings 😏',
+    'I will file your apology under “Pending Cases” for now. Just wait for a few days for the results.',
+  ],
 ];
 
 // Random for any other user input
@@ -122,6 +134,7 @@ const alternative = [
   '🥱',
   '😴',
   'What? I can’t hear you! Say that again louder! My hearing is not what it used to be 🥴',
+  '🥺',
 ];
 
 // Whatever else you want :)
