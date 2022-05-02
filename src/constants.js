@@ -52,13 +52,13 @@ const replies = [
   ['Why?', "Why? You shouldn't!", 'Try watching TV'],
   ['What about?', 'Once upon a time...'],
   ['Tell me a story', 'Tell me a joke', 'Tell me about yourself'],
-  ['Bye', 'Goodbye', 'See you later'],
+  ['Bye 🥲', 'Goodbye 🥲', 'See you later 🥲', '🥲', '🥺'],
   ['Sushi', 'Pizza'],
   ['Bro..!'],
   ['Great question'],
   ["That's ok", 'I understand', 'What do you want to talk about?'],
-  ['Haha!', 'Good one!'],
-  ['I also want it', 'Bro...!', 'lol!', 'Why?'],
+  ['Haha 😂', 'Good one!', '🤣🤣'],
+  ['I also want it 🤫', 'Bro... 🤣', 'Bro... 😳', 'lol! 😅', 'Why 🤔'],
 ];
 
 // Random for any other user input

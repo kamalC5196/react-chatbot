@@ -76,6 +76,7 @@ export default function App() {
     <form onSubmit={handleSubmit}>
       <input type="text" id="inputVal" />
       <button type="submit">Chat</button>
+      <br />
       {input}
     </form>
   );
