@@ -3,7 +3,7 @@ import './style.css';
 import { prompts, replies, alternative, coronavirus } from './constants';
 export default function App() {
   const [input, setInput] = useState('');
-  //console.log(prompts);
+  //console.log(replies);
   function handleSubmit(e) {
     e.preventDefault();
     //setInput();
@@ -53,9 +53,13 @@ export default function App() {
     let replyFound = false;
     for (let x = 0; x < promptsArray.length; x++) {
       for (let y = 0; y < promptsArray[x].length; y++) {
+        // if (
+        //   promptsArray[x][y].includes(string) ||
+        //   string.includes(promptsArray[x][y])
+        // ) {
         if (
-          promptsArray[x][y].includes(string) ||
-          string.includes(promptsArray[x][y])
+          new RegExp('\\b' + promptsArray[x][y] + '\\b').test(string) ||
+          new RegExp('\\b' + string + '\\b').test(promptsArray[x][y])
         ) {
           let replies = repliesArray[x];
           reply = replies[Math.floor(Math.random() * replies.length)];
